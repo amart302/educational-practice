@@ -1,0 +1,32 @@
+.why-us{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+}
+
+.why-us__quality{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 16px;
+}
+
+.why-us__quality-title{
+    font-size: 20px;
+}
+
+.why-us__quality-description{
+    line-height: 28px;
+}
+
+.link-wrapper{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    cursor: pointer;
+}
+
+.link{
+    color: #E58411;
+    text-decoration: none;
+}

@@ -1,0 +1,16 @@
+.main{}
+
+.main__wrapper{
+  background-color: #ffffff;
+}
+
+.main__container{
+  max-width: 1200px;
+  padding-inline: 10px;
+  margin-inline: auto;
+  padding-block: 100px;
+}
+
+.main__container-title{
+    font-size: 34px;
+}
