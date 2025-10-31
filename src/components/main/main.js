@@ -2,6 +2,8 @@ import "./main.css";
 import Hero from "../hero/hero";
 import WhyUs from "../whyUs/whyUs";
 import BestSelling from "../bestSelling/bestSelling";
+import BestExperience from "../bestExperience/bestExperience";
+import Materials from "../materials/materials";
 import Reviews from "../reviews/reviews";
 
 export default function Main(){
@@ -11,6 +13,8 @@ export default function Main(){
             <Hero />
             <WhyUs />
             <BestSelling />
+            <BestExperience />
+            {/* <Materials /> */}
             <Reviews />
         </main>
     );

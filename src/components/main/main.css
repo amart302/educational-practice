@@ -1,6 +1,5 @@
-.main{}
-
 .main__wrapper{
+  position: relative;
   background-color: #ffffff;
 }
 
@@ -12,5 +11,11 @@
 }
 
 .main__container-title{
-    font-size: 34px;
+    font-size: 36px;
+}
+
+.main__container-subtitle{
+  font-size: 18px;
+  color: #E58411;
+  letter-spacing: 6px;
 }

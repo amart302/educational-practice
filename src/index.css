@@ -8,3 +8,18 @@
 body{
   background-color: #F7F7F7;
 }
+
+
+.parent-modal{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: calc(100% - 20px);
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #000c;
+    padding-inline: 10px;
+    z-index: 12;
+}

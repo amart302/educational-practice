@@ -1,0 +1,28 @@
+.best-experience{
+    height: 600px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+}
+
+.best-experience__image{
+    width: 630px;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+    border-radius: 0 22px 22px 0;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    z-index: 1;
+}
+
+.best-experience__content{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    z-index: 2;
+}
+
+.best-experience__text{
+    line-height: 28px;
+}
