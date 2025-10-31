@@ -6,7 +6,7 @@ import Modal from "../modal/modal";
 
 export default function BestSelling(){
     const [ activeCategory, setActiveCategory ] = useState("chair");
-    const [ showModal, setShowModal ] = useState(true);
+    const [ showModal, setShowModal ] = useState(false);
     const [ products, setProducts ] = useState([]);
 
     useEffect(() => {
