@@ -16,7 +16,7 @@ export default function Materials(){
                             <img className="link-icon" src="./assets/images/arrow.svg" alt="Arrow icon" />
                         </div>
                     </div>
-                    <div className="best-experiense__wrapper">
+                    <div className="materials__wrapper">
                         <img className="materials__first-image" src="./assets/images/materialsFirstImage.png" />
                         <img className="materials__second-image" src="./assets/images/materialsSecondImage.png" />
                         <img className="materials__third-image" src="./assets/images/materialsThirdImage.png" />

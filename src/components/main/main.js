@@ -14,7 +14,7 @@ export default function Main(){
             <WhyUs />
             <BestSelling />
             <BestExperience />
-            {/* <Materials /> */}
+            <Materials />
             <Reviews />
         </main>
     );
